@@ -1,0 +1,104 @@
+@font-face {
+    font-family: planetaJuguete;
+    src: url(fuentes/eacologica-round-slab-ffp.otf);
+}
+@font-face {
+    font-family: Fontspring;
+    src: url(fuentes/Fontspring-DEMO-tt_commons_pro_condensed_regular.otf);
+}
+body{
+    margin:0%;
+    font-family:Fontspring;
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 168, 82);
+    border-bottom: solid 0.25rem rgb(43, 144, 68);
+}
+header h1{
+    display: inline;
+    font-family: planetaJuguete;
+    font-size: 3em;
+    color: white;
+    text-shadow: -0.04em -0.04em 0 black, 
+        0.04em -0.04em 0 black, 
+        -0.04em 0.04em 0 black, 
+        0.04em 0.04em 0 black; /*Sombras para hacer contorno al texto*/
+}
+header img{
+    width: 7em;
+    height: 7em;
+}
+
+/*nav*/
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 168, 82);
+}
+.aNav{
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%; 
+    border: solid transparent; /*Para que el contenedor nav no augmente el tamaño en el hover*/
+    color: white;
+    font-size: 1.3em;
+}
+.aNav:hover{/*efecto hover para la clase "botonNav*/
+    color: rgb(141, 255, 156);
+    border-bottom: solid rgb(141, 255, 156);
+    transition: 0.35s; 
+}
+/*main*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top:1%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+main p{
+    font-size: 1.5em;
+    margin-left: 1%;
+    text-align: center;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(141, 255, 156);
+}
+footer p{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/*responsive*/
+@media (max-width: 600px){
+    header h1{
+    font-size: 1.75em;
+    }
+    header img{
+        width: 4em;
+        height: 4em;
+    }
+    .aNav{
+        font-size: 1em;  
+        height: 2.5em;
+    }
+    main p{
+        font-size: 1em;
+    }
+    footer p{
+        font-size: 0.5em;
+    }
+}
