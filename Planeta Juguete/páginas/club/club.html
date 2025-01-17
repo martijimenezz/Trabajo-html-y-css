@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Planeta Juguete</title>
+    <link rel="stylesheet" href="club.css"/> <!--Relacionar este archivo con el archivo css-->
+    <link rel="icon" href="../../multimedia/logo1.png" type="image/x-icon"> <!--Relacionador que añade el logo a la pestaña-->
+  </head>
+  <body>
+    <header>
+        <a href="../index/index.html"> <!--enlace padre de los elementos del header que redirige a la página de inicio (típico en webs)-->
+          <img src="../../multimedia/logo1.png" alt="Logotipo de Planeta Juguete" /> <!--Logotipo en el header y de la web -->
+          <h1>Planeta Juguete</h1> <!--Título del header y de la web-->
+        </a>
+      </header>
+    <nav>
+      <!--Enlaces de navegación entre las diferentes páginas de nuestra web-->
+      <a href="../index/index.html">Inicio</a>
+      <a href="../articulos/articulos.html">Juguetes</a>
+      <a href="../../páginas/info/info.html">+ Información</a>
+    </nav>
+    <main>
+      <section id="formularioClub"> <!--Sección principal por si en un futuro añado otra-->
+        <h1>Únete al Club Planeta Juguete</h2>
+        <p>Forma parte de nuestra familia y obtén descuentos exclusivos, ofertas especiales y muchas sorpresas más.</p>
+        <!--Declaración del formulario que envia los datos a un script que procesa los datos (inexistente de momento) y los datos son 
+        enviados con el metodo post (el mas seguro)-->
+        <form action="procesarDatosClub.php" method="post">
+          <!--Texto que hace referencia a la siguiente entrada de id "nombre"-->
+          <label for="nombre">Nombre completo:</label> 
+          <!--Entrada de texto del usuario con el atributo placeholder que hace que se muestre un texto hasta que se empiece a escribir, 
+          required, que hace que el input sea necesario para enviar el formulario, pattern, que valida el input mediante una expresión 
+          regular y title, que da un mensaje en caso de que no se cumpla el patron regular-->
+          <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]{3,}$" title="El nombre debe contener solo letras y espacios, con al menos 3 caracteres.">
+          
+          <label for="email">Correo electrónico:</label>
+          <!--Entrada de tipo email con otra expresión regular-->
+          <input type="email" id="email" name="email" placeholder="Introduce tu correo" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Introduce un correo electrónico válido.">
+          
+          <label for="contraseña">Contraseña:</label>
+          <!--Entrada tipo password, que hace que la contraseña escrita no se muestre, solo se muestren puntos.-->
+          <input type="password" id="contraseña" name="contraseña" placeholder="Crea una contraseña" required pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="La contraseña debe tener al menos 8 caracteres, incluir una letra, un número y un carácter especial.">
+          
+          <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+          <!--Entrada tipo date, que sirve para fechas con el formato dd/mm/aaaa.-->
+          <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+          
+          <label for="país">País</label>
+            <!--Entrada de tipo desplegable-->
+          <select id="país" name="país">
+            <option value="espanya">España</option>
+            <option value="frança">Francia</option>
+            <option value="italia">Italia</option>
+          </select>
+
+          <!--&nbsp; es para añadir un espacio entre el texto y el enlace-->
+          <label for="terminos">Acepto los&nbsp;<a href="Página en mantenimiento.html">términos y condiciones</a>.</label> 
+          <!--Entrada checkbox para marcar una casilla-->
+          <input type="checkbox" id="terminos" name="terminos" required> 
+          
+          <!--Entrada para enviar el formulario y con el atributo value para cambiar el nombre del boton predeterminado-->
+          <input type="submit" value="Registrarme"> 
+      </form>
+      </section>
+    </main>
+    <footer> 
+        <section> <!--Sections del footer que separan sus bloques-->
+          <h3>Quiénes somos</h3> 
+          <a href="info.html">Sobre nosotros</a><br> <!--Enlace a página de info, que es donde se habla "sobre nosotros"-->
+          <a href="Página en mantenimiento.html">Nuestras Tiendas</a><br> <!--Apartado ficticio (aun)-->
+          <a href="club.html">Club Planeta Juguete</a> <!--Apartado ficticio (aun)-->
+        </section>
+        <section>
+          <h3>Atención al cliente</h3>
+          <a href="Página en mantenimiento.html">Contactanos</a><br> <!--Apartado ficticio (aun)-->
+          <a href="Página en mantenimiento.html">Ayuda</a> <!--Apartado ficticio (aun)-->
+        </section>
+        <section>
+          <h3>Política y Términos</h3>
+          <a href="Página en mantenimiento.html">Política de privacidad</a><br> <!--Apartado ficticio (aun)-->
+          <a href="Página en mantenimiento.html">Términos y condiciones</a> <!--Apartado ficticio (aun)-->
+        </section>
+      </footer>
+  </body>
+</html>
