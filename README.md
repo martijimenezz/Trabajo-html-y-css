@@ -21,7 +21,7 @@
 - **Martí**: artículos e info
 
 ### Fotos
-[![Descripción de la imagen]([../imagenesREADME/imagenREADME1png.png](https://github.com/martijimenezz/Trabajo-html-y-css/blob/14ee02f6e6e69a6ceabda5544654a47e615ab5a5/imagenesREADME/ImagenREADME1png.png))]
+[![Descripción de la imagen](imagenesREADME/ImagenREADME1png.png)]
 [![Descripción de la imagen](https://www.example.com/imagen.jpg)]
 [![Descripción de la imagen](https://www.example.com/imagen.jpg)]
 [![Descripción de la imagen](https://www.example.com/imagen.jpg)]
