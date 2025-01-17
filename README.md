@@ -21,17 +21,16 @@
 - **Martí**: artículos e info
 
 ### Fotos
-[![Index](imagenesREADME/ImagenREADME1png.png)]
-[![Index iphoneSE](imagenesREADME/ImagenREADME2.png)]
-[![Articulos](imagenesREADME/ImagenREADME3.png)]
-[![Articulos iphoneSE](imagenesREADME/ImagenREADME4.png)]
-[![Info](imagenesREADME/ImagenREADME5.png)]
-[![Info iphoneSE](imagenesREADME/ImagenREADME6.png)]
+![Index](imagenesREADME/ImagenREADME1png.png)
+![Index iphoneSE](imagenesREADME/ImagenREADME2.png)
+![Articulos](imagenesREADME/ImagenREADME3.png)
+![Articulos iphoneSE](imagenesREADME/ImagenREADME4.png)
+![Info](imagenesREADME/ImagenREADME5.png)
+![Info iphoneSE](imagenesREADME/ImagenREADME6.png)
 
 #### Formularios
 
-[![Formulario de registro para el club de la web.](imagenesREADME/ImagenREADME7.png)]
-
-[![Formulario para contactar con el personal de la web para informar problemas, hacer propuestas, etc.](imagenesREADME/ImagenREADME8.png)]
+![Formulario de registro para el club de la web.](imagenesREADME/ImagenREADME7.png)
+![Formulario para contactar con el personal de la web para informar problemas, hacer propuestas, etc.](imagenesREADME/ImagenREADME8.png)
 
 ### Expresiones regulares para la validación
