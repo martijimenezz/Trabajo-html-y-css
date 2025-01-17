@@ -21,20 +21,17 @@
 - **Martí**: artículos e info
 
 ### Fotos
-[![Descripción de la imagen](imagenesREADME/ImagenREADME1png.png)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
+[![Index](imagenesREADME/ImagenREADME1png.png)]
+[![Index iphoneSE](imagenesREADME/ImagenREADME2.png)]
+[![Articulos](imagenesREADME/ImagenREADME3.png)]
+[![Articulos iphoneSE](imagenesREADME/ImagenREADME4.png)]
+[![Info](imagenesREADME/ImagenREADME5.png)]
+[![Info iphoneSE](imagenesREADME/ImagenREADME6.png)]
 
 #### Formularios
-1. **Formulario de registro** para el club de la web.
-[![Descripción de la imagen](imageneREADME/imagenREADME1.png)]
 
-2. **Formulario para contactar** con el personal de la web para informar problemas, hacer propuestas, etc.
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)](https://www.example.com)
+[![Formulario de registro para el club de la web.](imagenesREADME/ImagenREADME7.png)]
+
+[![Formulario para contactar con el personal de la web para informar problemas, hacer propuestas, etc.](imagenesREADME/ImagenREADME8.png)]
 
 ### Expresiones regulares para la validación
-
-
