@@ -21,12 +21,12 @@
 - **Martí**: artículos e info
 
 ### Fotos
-[![Descripción de la imagen]()]
+[![Descripción de la imagen](../imagenesREADME/imagenREADME1png.png)]
 [![Descripción de la imagen](https://www.example.com/imagen.jpg)]
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)](https://www.example.com)
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)](https://www.example.com)
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)](https://www.example.com)
-[![Descripción de la imagen](https://www.example.com/imagen.jpg)](https://www.example.com)
+[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
+[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
+[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
+[![Descripción de la imagen](https://www.example.com/imagen.jpg)]
 
 #### Formularios
 1. **Formulario de registro** para el club de la web.
