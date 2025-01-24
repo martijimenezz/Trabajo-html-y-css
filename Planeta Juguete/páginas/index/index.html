@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es"> 
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Planeta Juguete</title>
+    <link rel="stylesheet" href="estils.css"/> <!--Relacionar este archivo con el archivo css-->
+    <link rel="icon" href="../../multimedia/logo1.png" type="image/x-icon"> <!--Relacionador que añade el logo a la pestaña-->
+  </head>
+  <body>
+    <audio src="../../multimedia/audio-inicio.mp3" autoplay></audio> <!--Audio que se reproduce en cuanto se abre la pagina de inicio-->
+    <header>
+      <a href="index.html"> <!--enlace padre de los elementos del header que redirige a la página de inicio (típico en webs)-->
+        <img src="../../multimedia/logo1.png" alt="Logotipo de Planeta Juguete" /> <!--Logotipo en el header y de la web -->
+        <h1>Planeta Juguete</h1> <!--Título del header y de la web-->
+      </a>
+    </header>
+    <nav>
+      <!--Enlaces de navegación entre las diferentes páginas de nuestra web-->
+      <a href="index.html">Inicio</a>
+      <a href="../articulos/articulos.html">Juguetes</a>
+      <a href="../../páginas/info/info.html">+ Información</a>
+    </nav>
+    <main>
+        <section id="intro"> <!--Seccion de introducción a la web-->
+          <!--video en autoplay para que se reproduzca automaticamente cuando se abra la página y muted para que se reproduzca 
+          sin sonido ya que muchos navegadores no permiten la reproducción automatica de videos con sonido ativado-->
+          <video src="../../multimedia/intro/video1.mp4" autoplay muted loop alt="Video niña jugando"></video> 
+          <h2>Juguetería Online</h2>
+          <p class="pMain1"> 
+            Dibujamos sonrisas y hacemos felices a todos aquellos niños que disfrutan
+            de jugar y a todos los adultos que encuentran la seriedad de jugar como
+            cuando eran niños.
+          </p>
+          <section id="bloqueimg"> <!--Seccion separada para un bloque de imagenes-->
+            <img src="../../multimedia/intro/bloqueimg/muchos-juguetes.jpeg" alt="multitud de juguetes">
+            <img src="../../multimedia/intro/bloqueimg/niña-tractor.jpeg" alt="niña con un tractor y una muñeca">
+            <img src="../../multimedia/intro/bloqueimg/muchos-juguetes2.jpeg" alt="niño entre juguetes">
+          </section>
+        </section>
+        <p class="pMain1"> 
+          Vendiendo felicidad desde 2024.<br> <!--Salto de linea-->
+          ¡No te lo pienses y regalale un juguete a tus seres queridos!
+        </p>
+        <div id="parallax"></div> <!--Div para el parallax-->
+
+        
+<!--Sección de articulos-->
+        <h1>Últimos juguetes añadidos</h2>
+        <section id="mainArticulos">
+          <!-- Sección que contiene la lista de productos -->
+          <ul class="productos">
+            <!-- Lista de productos -->
+            <li class="producto">
+              <!-- Producto individual -->
+              <img
+                src="../../multimedia/articulos/hookahs1.a1ef42d4db15294accd4.jpg"
+                alt="My First Hookah"
+                width="150"
+              />
+              <h2>My First Hookah</h2> <!-- Nombre del producto -->
+              <p><data value="50.00">50.00€</data></p> <!-- Precio del producto -->
+            </li>
+            <!-- Se repiten elementos similares para cada producto -->
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/minecraft-espada-diamante-encantada.jpg"
+                alt="Espada Minecraft"
+                width="150"
+              />
+              <h2>Espada Minecraft</h2>
+              <p><data value="25.99">25.99€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/00102712281753____9__1200x1200.jpg"
+                alt="Figuras Gormiti"
+                width="150"
+              />
+              <h2>Figuras Gormiti</h2>
+              <p><data value="20.00">20.00€</data></p>
+            </li>
+            <!-- Más productos -->
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/descarga.jpeg"
+                alt="Lego Star Wars"
+                width="150"
+              />
+              <h2>Lego Star Wars</h2>
+              <p><data value="850.00">850.00€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/descarga (1).jpeg"
+                alt="Nancy Yoga"
+                width="150"
+              />
+              <h2>Nancy Yoga</h2>
+              <p><data value="44.99">44.99€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/461021270740.jpg"
+                alt="Rayo Mcqueen Teledirigido"
+                width="150"
+              />
+              <h2>Rayo McQueen Teledirigido</h2>
+              <p><data value="44.99">44.99€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/81GDvKnoyZL._AC_SX679_.jpg"
+                alt="Equipamiento de Spiderman"
+                width="150"
+              />
+              <h2>Equipamiento de Spiderman</h2>
+              <p><data value="18.99">18.99€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/descarga (2).jpeg"
+                alt="Escopeta de Corredera Fortnite"
+                width="150"
+              />
+              <h2>Escopeta de Corredera Fortnite</h2>
+              <p><data value="39.99">39.99€</data></p>
+            </li>
+            <li class="producto">
+              <img src="../../multimedia/articulos/TPPRN000705_1.jpeg" alt="Fiat 500" width="150" />
+              <h2>Fiat 500</h2>
+              <p><data value="179.99">179.99€</data></p>
+            </li>
+            <li class="producto">
+              <img
+                src="../../multimedia/articulos/descarga (3).jpeg"
+                alt="Camión T-Rex Hotweels"
+                width="150"
+              />
+              <h2>Camión T-Rex Hotweels</h2>
+              <p><data value="89.99">89.99€</data></p>
+            </li>
+          </ul>
+        </section>
+<!--Fin de sección de articulos-->
+
+
+    </main>
+    <footer> 
+      <section> <!--Sections del footer que separan sus bloques-->
+        <h3>Quiénes somos</h3> 
+        <a href="../info/info.html">Sobre nosotros</a><br> <!--Enlace a página de info, que es donde se habla "sobre nosotros"-->
+        <a href="Página en mantenimiento.mantenimiento">Nuestras Tiendas</a><br> <!--Apartado ficticio (aun)-->
+        <a href="../club/club.html">Club Planeta Juguete</a> <!--Enlace a la página de registro del club  -->
+      </section>
+      <section>
+        <h3>Atención al cliente</h3>
+        <a href="../contactanos/contactanos.html">Contactanos</a><br> <!--Apartado ficticio (aun)-->
+        <a href="Página en mantenimiento.mantenimiento">Ayuda</a> <!--Apartado ficticio (aun)-->
+      </section>
+      <section>
+        <h3>Política y Términos</h3>
+        <a href="Página en mantenimiento.mantenimiento">Política de privacidad</a><br> <!--Apartado ficticio (aun)-->
+        <a href="Página en mantenimiento.mantenimiento">Términos y condiciones</a> <!--Apartado ficticio (aun)-->
+      </section>
+    </footer>
+  </body>
+</html>
